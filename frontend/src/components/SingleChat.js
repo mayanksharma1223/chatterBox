@@ -22,7 +22,7 @@ import {
 } from '@chakra-ui/react'
 
 import io from "socket.io-client"
-const ENDPOINT = "http://localhost:5000";
+const ENDPOINT = "https://chatterbox-dhsv.onrender.com";
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
